@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .btn   {
+    @apply px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors;
+  }
+  .card {
+    @apply bg-white rounded-lg shadow-md p-4;
+  }
+}
+header,footer{
+  @apply font-rubik text-3xl;
+}
+
+h2,h1{
+  @apply font-kaushan;
+}
+p, span, label , div{
+  @apply font-kaushan;
+}
+body {
+  @apply bg-gray-100;
+}
+
+
+#app {
+  @apply min-h-screen w-full max-w-md mx-auto bg-gray-100;
+}
