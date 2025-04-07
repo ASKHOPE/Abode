@@ -47,11 +47,11 @@ const getPropertyName = (propertyId: string): string => {
 const getPropertyArchivedStatus = (propertyId: string): boolean => {
     if (!properties.value || properties.value.length === 0) return false;
     const property = properties.value.find(p => p.id === propertyId);
-    return !!(property && property.archived);
+    return !!(property && property.archive);
 };
 const isTenantEffectivelyArchived = (tenant: Tenant | undefined): boolean => {
     if (!tenant) return true;
-    return !!tenant.archived || getPropertyArchivedStatus(tenant.propertyId);
+    return !!tenant.archive || getPropertyArchivedStatus(tenant.propertyId);
 };
 const getLatestPaymentStatus = (tenantId: string): string | null => {
     if (!payments.value || payments.value.length === 0) return null;

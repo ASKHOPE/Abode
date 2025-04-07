@@ -463,7 +463,7 @@ const activeProperties = computed(() => {
                <label class="flex items-center space-x-2">
                    <input
                      type="checkbox"
-                     v-model="newTenant.archived"
+                     v-model="newTenant.archive"
                      class="rounded border-gray-300 text-primary shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50"
                      :disabled="getPropertyArchivedStatus(newTenant.propertyId!)" 
                    />

@@ -11,8 +11,8 @@ export interface Property {
 export interface Tenant {
   id: string;
   name: string;
-  floor: string;
-  room: number;
+  floor: number;
+  room?: number;
   rent: number;
   leaseStart: string;
   leaseEnd: string;
