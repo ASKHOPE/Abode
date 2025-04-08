@@ -22,8 +22,8 @@ export const seedProperties: Property[] = [
     address: '456 Beach Rd, Coast City',
     floors: 1,
     rooms: 1,
+    // tenants: [],
     archive: false,
-    tenants: [],
   }
   
 ];
@@ -38,7 +38,7 @@ export const seedTenants: Tenant[] = [
     leaseEnd: new Date(2024, 0, 31).toISOString(),
     rentStatus: 'contract expired',
     propertyId: 'prop-001', // Link to Old Mill House
-    floor: "1",
+    floor: 1,
     room: 1,
     archive: false, // Even if false, will be treated as archived due to property
   },
