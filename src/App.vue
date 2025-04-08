@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, computed } from 'vue'; // Import computed
+import { onMounted } from 'vue'; //
 import { RouterLink, RouterView } from 'vue-router';
 import { useAuth } from './components/useAuth'; // Corrected path assuming composables dir
 import { db } from './services/db';

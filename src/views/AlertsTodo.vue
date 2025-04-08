@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, computed, nextTick } from 'vue';
+import { ref, onMounted, computed } from 'vue';
 import type { Tenant, Property, RentPayment, TodoItem } from '../types';
 import { db } from '../services/db';
 
