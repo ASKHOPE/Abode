@@ -1,6 +1,7 @@
 # Abode - Simple Offline Property Management 🏡
 
-<a href="https://ibb.co/MkYJhfDq"><img src="https://i.ibb.co/CKkSt65x/Chat-GPT-Image-Apr-8-2025-02-01-53-AM.png" alt="Chat-GPT-Image-Apr-8-2025-02-01-53-AM" border="0"></a>
+![logo](https://github.com/user-attachments/assets/1c6c89c5-3b0d-48e3-8b41-48083cc4d4df)
+
 
 Abode is a lightweight, browser-based web application designed for landlords and small property managers to easily manage properties, tenants, rent payments, and tasks. It operates entirely offline, storing all data directly in your browser's IndexedDB.
 
